@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './counter.component.html'
 })
 export class CounterComponent {
-  public currentCount = 0;
+  public currentCount = 1;
   public numero = 1000;
 
   public incrementCounter() {
