@@ -10,7 +10,7 @@ export class CounterComponent {
 
   public incrementCounter() {
     this.currentCount = this.currentCount + this.numero;
-    if (this.currentCount > 5000) {
+    if (this.currentCount > 4000) {
       this.currentCount = 0;
     }
   }
